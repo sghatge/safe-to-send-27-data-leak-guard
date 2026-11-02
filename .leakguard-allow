@@ -1,0 +1,2 @@
+# Values allowed on purpose (one per line). The leaky fixture is intentionally NOT allowed here:
+# CI scans only the clean fixture and the code.

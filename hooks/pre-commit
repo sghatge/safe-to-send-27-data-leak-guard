@@ -1,0 +1,3 @@
+#!/bin/sh
+# Copy to .git/hooks/pre-commit and make it executable.
+python leak_guard.py . || { echo "Commit blocked: possible personal or payment data (see above)."; exit 1; }
